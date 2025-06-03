@@ -56,10 +56,14 @@ export default function Menu() {
                                     </li>
 
                                     <li>
-                                        <a className="dropdown-item" href="/listaeditora">  {/* Substitua <a> por <Link to> se usar React Router */}
+                                        <a className="dropdown-item" href="/listaeditora"> 
                                            Editoras
                                         </a>
                                    </li>
+
+                                   <a className="dropdown-item" href="/listalivro"> 
+                                           Livro
+                                        </a>
 
                                     <li>
                                         <a className="dropdown-item" href="#">
