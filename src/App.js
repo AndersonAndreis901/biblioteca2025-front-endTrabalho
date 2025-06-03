@@ -11,6 +11,8 @@ import FormEditora from './paginas/FormEditora';
 import ListaEditora from './paginas/ListaEditora';
 import FormLivro from './paginas/FormLivro';
 import ListaLivro from './paginas/ListaLivro';
+import FormUsuario from './paginas/FormUsuario';
+import ListaUsuario from './paginas/ListaUsuario';
 
 
 
@@ -40,6 +42,12 @@ function App() {
             <Route path='/listalivro' element={<ListaLivro />} />
             <Route path='/cadastrolivro' element={<FormLivro />} />
             <Route path='/cadastrolivro/:id' element={<FormLivro />} />
+
+
+            <Route path="/listausuario" element={<ListaUsuario />} />
+            <Route path="/cadastrousuario" element={<FormUsuario />} />
+            <Route path="/cadastrousuario/:id" element={<FormUsuario />} />
+
 
 
 

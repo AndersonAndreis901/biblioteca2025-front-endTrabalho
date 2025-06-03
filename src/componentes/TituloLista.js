@@ -8,7 +8,7 @@ export default function TituloLista(props) {
                         <p>{props.descricao}</p>
                         <hr />
                         <a href={props.rota} className="btn btn-primary btn-md">
-                            Novo
+                            Adicionar
                         </a>
                     </div>
                 </div>

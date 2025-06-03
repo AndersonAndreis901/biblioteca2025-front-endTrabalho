@@ -61,10 +61,18 @@ export default function Menu() {
                                         </a>
                                    </li>
 
-                                   <a className="dropdown-item" href="/listalivro"> 
+                                   <li>
+                                        <a className="dropdown-item" href="/listalivro"> 
                                            Livro
                                         </a>
+                                   </li>
 
+                                   <li>
+                                        <a className="dropdown-item" href="/listausuario"> 
+                                           Usuario
+                                        </a>
+                                   </li>
+                                        
                                     <li>
                                         <a className="dropdown-item" href="#">
                                             Something else here
