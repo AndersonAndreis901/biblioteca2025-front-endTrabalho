@@ -72,6 +72,12 @@ export default function Menu() {
                                            Usuario
                                         </a>
                                    </li>
+
+                                   <li>
+                                        <a className="dropdown-item" href="/listafuncionario"> 
+                                           Funcionario
+                                        </a>
+                                   </li>
                                         
                                     <li>
                                         <a className="dropdown-item" href="#">
